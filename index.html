@@ -28,25 +28,9 @@
     height: 100%;
   }
 }
-.blink {
-  animation: blink-animation 3.5s steps(5, start) infinite;
-  -webkit-animation: blink-animation 3.5s steps(5, start) infinite;
-}
-@keyframes blink-animation {
-  to {
-    visibility: hidden;
-  }
-}
-@-webkit-keyframes blink-animation {
-  to {
-    visibility: hidden;
-  }
-}
 </style>
 <body>
-    <div style="top: 50%; left: 50%; position: absolute;" class="blink">
-        <div>The Era I Owe</div>
-    </div>    
+<div style="top: 50%; left: 50%; position: absolute;">The Era I Owe</div>    
 <div class="fullscreen-bg">
     <video loop muted autoplay poster="" class="fullscreen-bg__video">
         <source src="background.mp4" type="video/mp4">
