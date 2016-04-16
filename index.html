@@ -33,10 +33,26 @@
   }
 }
 
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+This is <span class="blink">blinking</span> text.
 </style>
 <body>
 
-
+<center>This is <span class="blink">blinking</span> text.</center>
 <div class="fullscreen-bg">
     <video loop muted autoplay poster="" class="fullscreen-bg__video">
         <source src="background.mp4" type="video/mp4">
