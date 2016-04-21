@@ -29,6 +29,4 @@ body {
     bottom: -2rem;
     left: -2rem;
     right: -2rem;
-    -webkit-filter: blur(1rem);
-    filter: blur(1rem);
 }
