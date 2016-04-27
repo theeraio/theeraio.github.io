@@ -1,7 +1,7 @@
 # theeraio.github.io
 The Era I Owe
 
-This is a social experiment. That is slowly getting under way. Stay tuned...
+This is a social experiment. This is a concecpt in [edge computing](https://en.wikipedia.org/wiki/Edge_computing). This is slowly getting under way. Stay tuned...
 
 ## Getting a page on theera.io
 
