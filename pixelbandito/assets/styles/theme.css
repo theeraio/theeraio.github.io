@@ -1,0 +1,29 @@
+.pxb-t .pxb-t-font {
+    font-family: press_start_2pregular;
+}
+.pxb-t .pxb-t-color {
+    color: #444;
+}
+.pxb-t .pxb-t-link {
+    color: #0066ff;
+    text-decoration: underline;
+    &:hover, &:active, &:focus {
+        text-decoration: none;
+    }
+}
+.pxb-t--dark {
+    text-shadow: 0 0 0.2rem rgba(0,0,0,0.4);
+}
+.pxb-t--dark .pxb-t-color {
+    color: white;
+}
+.pxb-t--dark .pxb-t-bg {
+    background-color: black;
+}
+.pxb-t--dark .pxb-t-link {
+    color: white;
+    text-decoration: underline;
+    &:hover, &:active, &:focus {
+        text-decoration: none;
+    }
+}

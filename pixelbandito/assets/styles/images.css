@@ -1,0 +1,9 @@
+.pxb-img-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.pxb-blur {
+    -webkit-filter: blur(1rem);
+    filter: blur(1rem);
+}

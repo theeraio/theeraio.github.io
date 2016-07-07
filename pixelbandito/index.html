@@ -1,13 +1,28 @@
 <!doctype html>
-<html style="height: 100%;">
+<html class="pxb-t pxb-t--dark">
     <head>
         <title>pixelbandito - The Era I Owe</title>
         <link rel="stylesheet" href="assets/styles/styles.css">
+        <link rel="stylesheet" href="assets/styles/daycycle.css">
+        <script src="assets/js/suncalc.js"></script>
+        <script src="assets/js/daycycle.js"></script>
     </head>
-    <body class="color-way-dark" style="min-height: 100%; margin: 0; position: relative;">
-        <div class="backdrop backdrop-img" style="background-image: url(assets/images/Pixel_geometry_01_Pengo.jpg)"></div>
-        <div style="display: flex; align-items: center; justify-content: center; position: absolute; height: 100%; width: 100%;">
-            <h1 class="t-color" style="padding: 4rem; word-break: break-word; text-align: center;">Pixelbandito was here</h1>
-        </div>
+    <body class="pxb-t-font pxb-t-color pxb-container--lg">
+        <div class="daycycle pxb-viewport-fill" style="z-index: -1"></div>
+        <header style="margin-bottom: 4rem;">
+            <h1>Method.run</h1><em>by pixelbandito</em>
+        </header>
+        <section>
+            <h2>Daycycle</h2>
+            <p>
+                The gradient in the background is a work-in-progress.
+            </p>
+            <p>
+                It uses a linear gradient (with creative license) to represent a day-night cycle. The gradient is positioned vertically according to the browser's local time, and it animates up and down on a 24 hour cycle.
+            </p>
+            <p>
+                In addition, it uses <a class="pxb-t-link" href="https://github.com/mourner/suncalc" title="SunCalc.js on github" target="_blank">SunCalc</a> to determine local sunrise, solarNoon, and sunset based on the browser location; and re-calibrates the day length of the animation.
+            </p>
+        </section>
     </body>
 </html>
