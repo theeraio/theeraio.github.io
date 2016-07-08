@@ -1,5 +1,8 @@
 .pxb-t .pxb-t-font {
-    font-family: press_start_2pregular;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.pxb-t .pxb-t-font-heading {
+    font-family: press_start_2pregular, monospace;
 }
 .pxb-t .pxb-t-color {
     color: #444;
@@ -11,16 +14,16 @@
         text-decoration: none;
     }
 }
-.pxb-t--dark {
+.pxb-t.pxb-t--dark {
     text-shadow: 0 0 0.2rem rgba(0,0,0,0.4);
 }
-.pxb-t--dark .pxb-t-color {
+.pxb-t.pxb-t--dark .pxb-t-color {
     color: white;
 }
-.pxb-t--dark .pxb-t-bg {
+.pxb-t.pxb-t--dark .pxb-t-bg {
     background-color: black;
 }
-.pxb-t--dark .pxb-t-link {
+.pxb-t.pxb-t--dark .pxb-t-link {
     color: white;
     text-decoration: underline;
     &:hover, &:active, &:focus {
