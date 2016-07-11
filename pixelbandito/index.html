@@ -3,9 +3,9 @@
     <head>
         <title>pixelbandito - The Era I Owe</title>
         <link rel="stylesheet" href="assets/styles/styles.css">
-        <link rel="stylesheet" href="assets/styles/daycycle.css">
-        <script src="assets/js/suncalc.js"></script>
-        <script src="assets/js/daycycle.js"></script>
+        <link rel="stylesheet" href="submodules/daycycle/src/assets/css/daycycle.css">
+        <script src="submodules/daycycle/src/submodules/suncalc/suncalc.js"></script>
+        <script src="submodules/daycycle/src/assets/js/daycycle.js"></script>
     </head>
     <body class="pxb-t-font pxb-t-color pxb-container--lg">
         <div class="daycycle pxb-viewport-fill" style="z-index: -1"></div>
@@ -39,7 +39,8 @@
                 It uses a linear gradient (with creative license) to represent a day-night cycle. The gradient is positioned vertically according to the browser's local time, and it animates up and down on a 24 hour cycle.
             </p>
             <p>
-                Daycycle currently lives in a subfolder of <a class="pxb-t-link" href="https://github.com/pixelbandito/theeraio.github.io">pixelbandito/theeraio.github.io</a>, so feel free to leave comments / issues on that repo. I'll break it out into its own when I have a little time.
+                <a class="pxb-t-link" href="https://github.com/pixelbandito/daycycle">Daycycle on GitHub</a>
+                <small><a class="pxb-t-link" href="https://github.com/pixelbandito/daycycle/issues/new">Submit an issue</a></small>
             </p>
             <!-- <p>
                 In addition, it uses <a class="pxb-t-link" href="https://github.com/mourner/suncalc" title="SunCalc.js on github" target="_blank">SunCalc</a> to determine local sunrise, solarNoon, and sunset based on the browser location; and re-calibrates the day length of the animation.
