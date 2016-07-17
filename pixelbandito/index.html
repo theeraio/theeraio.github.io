@@ -5,45 +5,48 @@
         <link rel="stylesheet" href="assets/styles/styles.css">
         <!-- <link rel="stylesheet" href="submodules/daycycle/src/assets/css/daycycle.css"> -->
         <!-- <script src="submodules/daycycle/src/submodules/suncalc/suncalc.js"></script> -->
-        <link rel="import" href="submodules/pxb-daycycle/pxb-daycycle.html">
+        <link rel="import" href="submodules/pxb-daycycle/dist/pxb-daycycle.html">
     </head>
     <body class="pxb-t-font pxb-t-color pxb-container--lg">
-        <pxb-daycycle></pxb-daycycle>
-        <header style="margin-bottom: 4rem;">
-            <a class="pxb-t-link" href="http://theera.io" title="Back to The Era I Owe"><small>&lt; The Era I Owe</small></a>
-            <h1 class="pxb-t-font-heading">Method.run</h1><em>by pixelbandito</em>
-        </header>
-        <section>
-            <h2 class="pxb-t-font-heading">Comment-based roadmap</h2>
-            <small>2016-07-08T14:32:19Z</small>
-            <p>
-                I hate having to go to more than one place for things. I'd like to try using structured comments in conjunction with a barebones github repo to replace a roadmap / ticketing system.
-            </p>
-            <p>
-                You'd start an empty repo, add a README, and leave comments that describe desired functionality, priority, responsible individuals, dependencies, etc. Then you'd run a utility that scans the repo and compiles your todo list.
-            </p>
-            <p>
-                Github issues already does a pretty good job with feature requests, but issues are still a proprietary Github-ism, right? This would be 100% portable.
-            </p>
-            <p>
-                P.S. For javascript, I think the decorators pattern could work instead of comments, but one of the challenges is finding a syntax that you could use to create issues and requests in any file in the repo. I think a structured comment is a better fit, since every programming language I've used has some kind of block comment feature.
-            </p>
-        </section>
-        <section>
-            <h2 class="pxb-t-font-heading">Daycycle</h2>
-            <small>2016-07-07T14:43:11Z</small>
-            <p>
-                The gradient in the background is a work-in-progress.
-            </p>
-            <p>
-                It uses a linear gradient (with creative license) to represent a day-night cycle. The gradient is positioned vertically according to the browser's local time, and it animates up and down on a 24 hour cycle.
-            </p>
-            <p>
-                Daycycle currently lives in a subfolder of <a class="pxb-t-link" href="https://github.com/pixelbandito/theeraio.github.io">pixelbandito/theeraio.github.io</a>, so feel free to leave comments / issues on that repo. I'll break it out into its own when I have a little time.
-            </p>
-            <!-- <p>
-                In addition, it uses <a class="pxb-t-link" href="https://github.com/mourner/suncalc" title="SunCalc.js on github" target="_blank">SunCalc</a> to determine local sunrise, solarNoon, and sunset based on the browser location; and re-calibrates the day length of the animation.
-            </p> -->
-        </section>
+        <pxb-daycycle style="z-index: 0;"></pxb-daycycle>
+        <div style="position: relative">
+            <header style="margin-bottom: 4rem;">
+                <a class="pxb-t-link" href="http://theera.io" title="Back to The Era I Owe"><small>&lt; The Era I Owe</small></a>
+                <h1 class="pxb-t-font-heading">Method.run</h1><em>by pixelbandito</em>
+            </header>
+            <section>
+                <h2 class="pxb-t-font-heading">Comment-based roadmap</h2>
+                <small>2016-07-08T14:32:19Z</small>
+                <p>
+                    I hate having to go to more than one place for things. I'd like to try using structured comments in conjunction with a barebones github repo to replace a roadmap / ticketing system.
+                </p>
+                <p>
+                    You'd start an empty repo, add a README, and leave comments that describe desired functionality, priority, responsible individuals, dependencies, etc. Then you'd run a utility that scans the repo and compiles your todo list.
+                </p>
+                <p>
+                    Github issues already does a pretty good job with feature requests, but issues are still a proprietary Github-ism, right? This would be 100% portable.
+                </p>
+                <p>
+                    P.S. For javascript, I think the decorators pattern could work instead of comments, but one of the challenges is finding a syntax that you could use to create issues and requests in any file in the repo. I think a structured comment is a better fit, since every programming language I've used has some kind of block comment feature.
+                </p>
+            </section>
+            <section>
+                <h2 class="pxb-t-font-heading">Daycycle</h2>
+                <small>2016-07-07T14:43:11Z</small>
+                <p>
+                    The gradient in the background is a work-in-progress.
+                </p>
+                <p>
+                    It uses a linear gradient (with creative license) to represent a day-night cycle. The gradient is positioned vertically according to the browser's local time, and it animates up and down on a 24 hour cycle.
+                </p>
+                <p>
+                    Daycycle currently lives in a subfolder of <a class="pxb-t-link" href="https://github.com/pixelbandito/theeraio.github.io">pixelbandito/theeraio.github.io</a>, so feel free to leave comments / issues on that repo. I'll break it out into its own when I have a little time.
+                </p>
+                <!-- <p>
+                    In addition, it uses <a class="pxb-t-link" href="https://github.com/mourner/suncalc" title="SunCalc.js on github" target="_blank">SunCalc</a> to determine local sunrise, solarNoon, and sunset based on the browser location; and re-calibrates the day length of the animation.
+                </p> -->
+            </section>
+        </div>
+
     </body>
 </html>
