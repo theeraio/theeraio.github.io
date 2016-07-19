@@ -1,3 +1,3 @@
-[submodule "pixelbandito/submodules/daycycle"]
-	path = pixelbandito/submodules/daycycle
-	url = https://github.com/pixelbandito/daycycle.git
+[submodule "pixelbandito/submodules/pxb-daycycle"]
+	path = pixelbandito/submodules/pxb-daycycle
+	url = git@github.com:pixelbandito/pxb-daycycle.git
