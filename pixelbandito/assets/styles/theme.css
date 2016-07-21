@@ -9,10 +9,6 @@
 }
 .pxb-t .pxb-t-link {
     color: #0066ff;
-    text-decoration: underline;
-    &:hover, &:active, &:focus {
-        text-decoration: none;
-    }
 }
 .pxb-t.pxb-t--dark {
     text-shadow: 0 0 0.2rem rgba(0,0,0,0.4);
@@ -25,8 +21,4 @@
 }
 .pxb-t.pxb-t--dark .pxb-t-link {
     color: white;
-    text-decoration: underline;
-    &:hover, &:active, &:focus {
-        text-decoration: none;
-    }
 }

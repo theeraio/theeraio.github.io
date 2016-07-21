@@ -1,3 +1,14 @@
 body {
     font-size: 2rem;
+    line-height: 1.4em;
+}
+a {
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, currentColor 50%, transparent 50%);
+    background-repeat: repeat-x;
+    background-size: 0.125em 0.125em;
+    background-position: 0 0.92em;
+}
+@media not all, only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+    background: linear-gradient(to bottom, currentColor 25%, transparent 25%);
 }
