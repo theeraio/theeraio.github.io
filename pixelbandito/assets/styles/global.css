@@ -1,6 +1,6 @@
 html {
     height: 100%;
-    font-size: 10px; // For easy calculation in rems
+    font-size: 10px; /* For easy calculation in rems */
 }
 body {
     min-height: 100%;
