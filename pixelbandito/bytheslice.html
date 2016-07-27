@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=917">
+    <title>The web site of pixelbandito</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <style>
+      html {
+        height: 100%;
+      }
+      body {
+        min-height: 100%;
+        margin: 0;
+        background: black;
+      }
+      .pxb-viewport {
+        position: relative;
+      }
+      .pxb-viewport-fill {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+      }
+      td {
+        padding: 1%;
+      }
+      .pxb-bg-image {
+        background: url("assets/images/cityscape-unsplash.jpg") no-repeat;
+        background-size: 150vw auto;
+        background-position: 50% 50%;
+      }
+      @media (max-width: 480px) {
+        table.pxb-viewport-fill {
+            height: 917px;
+        }
+      }
+    </style>
+  </head class="pxb-viewport">
+  <body class="pxb-viewport-fill">
+    <table class="pxb-viewport-fill" style="border-spacing: 0;">
+      <tr style="height: 40%">
+        <td class="pxb-bg-image" style="width: 25%; background-position: -184px -21px;" colspan="2" rowspan="3"></td>
+        <td class="pxb-bg-image" style="background-position: -412px -22px;" colspan="2"></td>
+        <td class="pxb-bg-image" style="width: 30%; background-position: -826px -21px;" colspan="1" rowspan="2"></td>
+      </tr>
+      <tr>
+        <td class="pxb-bg-image" style="width: 15%; background-position-x: -412px;"></td>
+        <td class="pxb-bg-image"></td>
+      </tr>
+      <tr>
+        <td class="pxb-bg-image" style="background-position: -411px -531px;" colspan="3" rowspan="2"></td>
+      </tr>
+      <tr style="height: 15%">
+        <td class="pxb-bg-image" style="background-position: -183px -655px;"  rowspan="2"></td>
+        <td class="pxb-bg-image" style="background-position: -299px -656px"></td>
+      </tr>
+      <tr>
+        <td class="pxb-bg-image" style="background-position: -297px -793px;"  colspan="4"></td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -13,6 +13,9 @@
 .pxb-t.pxb-t--dark {
     text-shadow: 0 0 0.2rem rgba(0,0,0,0.4);
 }
+.pxb-t.pxb-t--dark .pxb-t-bg {
+    background: #142763;
+}
 .pxb-t.pxb-t--dark .pxb-t-color {
     color: white;
 }
