@@ -12,3 +12,7 @@ Collect and aggregate art, music, techgnar, cool stuff while learning about art,
 Fork this repo, add your directory, and submit a pull request.
 
 [Github instructions for forking a repo here](https://help.github.com/articles/fork-a-repo/)
+
+## Notes
+
+Hugo style syntax implemented with a middleman style generator... we are not beyond stealing, using generously, from these projects. =P
