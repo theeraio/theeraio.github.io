@@ -4,6 +4,7 @@
         <title>pixelbandito - The Era I Owe</title>
         <link rel="stylesheet" href="assets/styles/styles.css">
         <link rel="import" href="submodules/pxb-daycycle/dist/pxb-daycycle.html">
+        <link rel="import" href="submodules/pxb-day-dial/pxb-day-dial.html">
     </head>
     <body class="pxb-t-bg pxb-t-font pxb-t-color pxb-container--lg">
         <pxb-daycycle style="z-index: 0;"></pxb-daycycle>
@@ -12,6 +13,32 @@
                 <a class="pxb-t-link" href="http://theera.io" title="Back to The Era I Owe"><small>&lt; The Era I Owe</small></a>
                 <h1 class="pxb-t-font-heading">Method.run</h1><em>by pixelbandito</em>
             </header>
+            <section>
+                <h2 class="pxb-t-font-heading">Day dial</h2>
+                <small>2016-08-05T21:34:11.223Z</small>
+                <p>
+                    <pxb-day-dial></pxb-day-dial>
+                </p>
+                <p>
+                    This is <code>pxb-day-dial</code>. It's a time picker. Spin it, and the background gradient (<code>pxb-daycycle</code>) will adjust to reflect the time you chose.
+                </p>
+                <p>
+                    <a class="pxb-t-link" href="https://github.com/pixelbandito/pxb-day-dial">pxb-day-dial on GitHub</a>
+                    <small><a class="pxb-t-link" href="https://github.com/pixelbandito/pxb-day-dial/issues/new">Submit an issue</a></small>
+                </p>
+                <script>
+                    window.setTimeout(function() {
+                        var dial = document.querySelector('pxb-day-dial'),
+                            gradient = document.querySelector('pxb-daycycle');
+                        console.log(dial, gradient);
+                        dial.addEventListener('change', function(e) {
+                            var newTime = e.target.attributes.value.value;
+                            console.log(e);
+                            gradient.attributes.time.value = newTime;
+                        });
+                    }, 0);
+                </script>
+            </section>
             <section>
                 <h2 class="pxb-t-font-heading">City by the slice</h2>
                 <small>2016-07-26T04:33:21.618Z</small>
@@ -45,8 +72,8 @@
                     It uses a linear gradient (with creative license) to represent a day-night cycle. The gradient is positioned vertically according to the browser's local time, and it animates up and down on a 24 hour cycle.
                 </p>
                 <p>
-                    <a class="pxb-t-link" href="https://github.com/pixelbandito/daycycle">Daycycle on GitHub</a>
-                    <small><a class="pxb-t-link" href="https://github.com/pixelbandito/daycycle/issues/new">Submit an issue</a></small>
+                    <a class="pxb-t-link" href="https://github.com/pixelbandito/pxb-daycycle">Daycycle on GitHub</a>
+                    <small><a class="pxb-t-link" href="https://github.com/pixelbandito/pxb-daycycle/issues/new">Submit an issue</a></small>
                 </p>
             </section>
         </div>
