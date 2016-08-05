@@ -1,0 +1,26 @@
+{
+  "name": "pxb-day-dial",
+  "description": "A tiny wheel that you can spin to select a time of day.",
+  "main": "pxb-day-dial.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.0.0",
+    "web-component-tester": "^4.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  },
+  "homepage": "https://github.com/pixelbandito/pxb-day-dial",
+  "version": "0.1.0-alpha",
+  "_release": "0.1.0-alpha",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.0-alpha",
+    "commit": "e3a5d8f7b79e029313d279336bad5c9ac0cb5292"
+  },
+  "_source": "git://github.com/pixelbandito/pxb-day-dial.git",
+  "_target": "^0.1.0-alpha",
+  "_originalSource": "pixelbandito/pxb-day-dial",
+  "_direct": true
+}
