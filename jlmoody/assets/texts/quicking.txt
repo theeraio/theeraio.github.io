@@ -1,0 +1,1 @@
+Quicking: to quickly iterate on code, not to be confused with iterating quickly in code.
