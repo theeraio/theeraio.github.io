@@ -16,3 +16,5 @@ Fork this repo, add your directory, and submit a pull request.
 ## Notes
 
 Hugo style syntax implemented with a middleman style generator... we are not beyond stealing, using generously, from these projects. =P
+
+We are getting closer to understanding how the rendering engine could use modules to an extraordinary magnitude, to the point we could render spreadsheets alongside blog posts, etc.
